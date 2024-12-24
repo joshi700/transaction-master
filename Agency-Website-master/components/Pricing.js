@@ -16,7 +16,7 @@ function Pricing() {
             <div class="inner-box overflow-hidden position-relative">
               <div class="title">Listing Coordinator</div>
               <div class="price">
-                $200 <span class="duration">/ monthly</span>
+                $200 <span class="duration"></span>
               </div>
               <div class="table-content">
                 <ul>
@@ -39,7 +39,7 @@ function Pricing() {
                 </ul>
               </div>
               <div class="table-footer">
-                <a href="#" class="button btn-theme-1">View Profile</a>
+                <a href="profile1.html" class="button btn-theme-1">View Details</a>
               </div>
             </div>
           </div>
