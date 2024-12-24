@@ -7,7 +7,7 @@ function Navbar() {
   <a class="navbar-brand me-5" href="#">
     <img
       class="BrandLogo"
-      src="./Images/Transaction.png"
+      src="./Images/Transaction 2.png"
       alt=""
       srcset=""
     />
