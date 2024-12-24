@@ -9,11 +9,10 @@ function Herosection() {
           <div class="text-wrapper col-12 col-lg-7">
             <div class="text-body">
               <h1 class=" fw-bold">
-                The easiest way to manage projects
+               Transaction Master
               </h1>
               <p class="mt-3">
-                From the small stuff to the big picture, organizes the work so
-                teams know what to do, why it matters, and how to get it done.
+                We will manage all the paperwork and deadlines involved with selling/buying a home. We understand the flow of forms and time sensitive documents. We monitor the entire process and handle all conflict resolutions from the time the seller accepts the offer until both parties have signed the closing paperwork and the buyer walks away with the keys.
               </p>
             </div>
             <div class="btns-group mt-3">
