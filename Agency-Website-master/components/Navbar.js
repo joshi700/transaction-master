@@ -15,23 +15,7 @@ function Navbar() {
   </div>
 <div class="nav-right d-flex align-items-center">
   <div class="badges-items me- d-none d-sm-block">
-    <a class="badge-item text-decoration-none" href="#1">
-      <img
-        class="item"
-        src="./Images/Store badge.svg"
-        alt=""
-        srcset=""
-      />
-    </a>
-    <a class="badge-item text-decoration-none" href="#2">
-      <img
-        class="item"
-        src="./Images/Store badge-1.svg"
-        alt=""
-        srcset=""
-      />
-    </a>
-  </div>
+      </div>
   <button
     class="btn collapsed d-lg-none"
     type="button"
