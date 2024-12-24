@@ -12,21 +12,7 @@ function Navbar() {
       srcset=""
     />
   </a>
-  <ul class="navbar-nav d-none d-lg-flex">
-    <li class="nav-item">
-      <a class="nav-link" href="#Features">Features</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#Pricing">Pricing</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#Careers">Careers</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#FAQ">Help</a>
-    </li>
-  </ul>
-</div>
+  </div>
 <div class="nav-right d-flex align-items-center">
   <div class="badges-items me- d-none d-sm-block">
     <a class="badge-item text-decoration-none" href="#1">
