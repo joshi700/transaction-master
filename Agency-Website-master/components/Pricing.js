@@ -14,27 +14,26 @@ function Pricing() {
           <!-- Pricing Table -->
           <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box overflow-hidden position-relative">
-              <div class="title">Basic</div>
+              <div class="title">Listing Coordinator</div>
               <div class="price">
-                $199 <span class="duration">/ monthly</span>
+                $200 <span class="duration">/ monthly</span>
               </div>
               <div class="table-content">
                 <ul>
                   <li>
-                    <span><i class="bi bi-check2"></i>1 job posting</span>
+                    <span><i class="bi bi-check2"></i>Prepare property for listing in MLS using Transaction Master’s listing input sheet</span>
                   </li>
                   <li>
-                    <span><i class="bi bi-check2"></i>0 featured job</span>
+                    <span><i class="bi bi-check2"></i>Schedule photos - sorting and uploading (using Transaction Master’s preferred photographer)</span>
                   </li>
                   <li>
                     <span
-                      ><i class="bi bi-check2"></i>Job displayed for 20
-                      days</span
+                      ><i class="bi bi-check2"></i>Disclosure preparation & uploads, check compliance</span
                     >
                   </li>
                   <li>
                     <span
-                      ><i class="bi bi-check2"></i>Premium Support 24/7
+                      ><i class="bi bi-check2"></i>Live listing to MLS - check accuracy of listing on third party websites
                     </span>
                   </li>
                 </ul>
