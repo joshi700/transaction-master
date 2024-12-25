@@ -51,7 +51,7 @@ function Pricing() {
     },
     {
       title: "Premium",
-      price: Actuals,
+      price: 400,
       duration: "",
       features: [
       "Pre-Listing Document Coordination - $50",
