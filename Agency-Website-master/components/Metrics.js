@@ -22,7 +22,7 @@ function Metrics() {
           <img src="/Images/Shraddha.jpg" alt="Member 2" class="team-image">
           <h3>Shraddha Kharsikar</h3>
           <p>Transaction Manager</p>
-          <p>Shraddha leverages her Human Resources background to bring exceptional organizational skills, time management, and communication to every real estate transaction. She understands the emotional complexities of buying and selling homes and ensures each process is handled with care and attention. </p>
+          <p>"Shraddha uses her HR expertise to deliver strong organization, time management, and communication, handling the emotional complexities of real estate transactions with care.</p>
         </div>
       </div>
 
