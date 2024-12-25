@@ -17,9 +17,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 text-center text-md-end">
-        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
-      </div>
     </div>
   `;
 
