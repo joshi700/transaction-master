@@ -7,7 +7,7 @@ function Metrics() {
     <h1 class="text-center mb-5">Meet the Team</h1>
     <div class="row justify-content-center gx-5">
       <!-- Team Member 1 -->
-      <div class="col-12 col-md-5 text-center">
+      <div class="col-12 col-md-4 text-center">
         <div class="team-member">
           <img src="/Images/john-doe-circle.webp" alt="Member 1" class="team-image">
           <h3>Saylee Mokashi</h3>
@@ -17,7 +17,7 @@ function Metrics() {
       </div>
 
       <!-- Team Member 2 -->
-      <div class="col-12 col-md-5 text-center">
+      <div class="col-12 col-md-4 text-center">
         <div class="team-member">
           <img src="/Images/john-doe-circle.webp" alt="Member 2" class="team-image">
           <h3>Shraddha</h3>
