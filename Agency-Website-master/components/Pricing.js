@@ -94,7 +94,7 @@ function openModal(index) {
   const pricingData = [
     {
       title: "Listing Coordinator",
-      description: "This package is perfect for property listings and ensuring smooth processes through MLS."
+      description: ["Prepare and upload disclosures","Verify MLS listing accuracy","Prepare showing instructions","Create and deliver brochures","Place shoe signs and boot covers"]
     },
     {
       title: "Standard",
