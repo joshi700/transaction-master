@@ -14,9 +14,10 @@ function Footer() {
             </div>
           </div>
           <div class="col-12 col-md-2 badges">
-            <p>Contact Details:</p>
+            <p>Contact Us:</p>
             <div class="badges-items me-3 d-block">
-            <p>Saylee Mokashi XXX-XXX-XXXX</p>
+            <p>248-716-4247</p>
+            <p>transaction.management.one@gmail.com</p>
             </div>
           </div>
         </div>
