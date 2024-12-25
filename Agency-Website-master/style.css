@@ -775,4 +775,20 @@ ul {
     font-size: 1.8rem;
   }
 }
+.pricing-modal .modal-content ul {
+  padding-left: 20px;
+}
+
+.pricing-modal .modal-content ul li {
+  display: flex;
+  align-items: center;
+}
+
+.pricing-modal .modal-content ul li span {
+  margin-left: 8px;
+}
+
+.pricing-modal .modal-content ul li i {
+  color: green;
+}
 
