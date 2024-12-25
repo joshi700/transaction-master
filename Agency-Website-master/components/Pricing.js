@@ -50,14 +50,14 @@ function Pricing() {
       description: "",
     },
     {
-      title: "Extended",
-      price: 799,
-      duration: "/ monthly",
+      title: "Premium",
+      price: ,
+      duration: "",
       features: [
-        "1 job posting",
-        "0 featured job",
-        "Job displayed for 20 days",
-        "Premium Support 24/7"
+      "Pre-Listing Document Coordination - $50",
+        "Open House Brochures & Baskets - $75",
+        "Host Open House - $150",
+        "Notary Services - $10/document",
       ],
       description: "Extended features and premium support for those who need long-term visibility and assistance.",
     }
@@ -190,8 +190,19 @@ function openModal(index) {
     },
     {
       title: "Extended",
-      features: [],
-      description: "Extended features and premium support for those who need long-term visibility and assistance."
+      features: [
+        "Property Transfer to City - $25",
+        "Schedule Inspection - $25",
+        "Attend Inspection for Agent - $150",
+        "Represent at Closing - $100",
+        "Room Dimensions - $50",
+        "Lockbox Services - $25",
+        "Showing Assistant - $75/showing",
+        "Personalized Closing Baskets - $100 + cost",
+        "Contractor Referrals - Free",
+        "Translation Services - Variable"
+      ],
+      description: ""
     }
   ];
 
