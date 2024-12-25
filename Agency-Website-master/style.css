@@ -775,6 +775,15 @@ ul {
     font-size: 1.8rem;
   }
 }
+
+.pricing-modal .modal-content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 .pricing-modal .modal-content ul {
   padding-left: 20px;
 }
