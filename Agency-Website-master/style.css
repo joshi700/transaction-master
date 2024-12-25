@@ -732,3 +732,47 @@ ul {
   list-style-type: none;
 }
 
+/* Styling for the title */
+.title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Styling for the lead paragraph */
+.lead {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Simple List Item Styling */
+.simple-list-item {
+  font-size: 1.1rem;
+  padding: 8px 0;
+  margin: 5px 0;
+  color: #333;
+}
+
+.simple-list-item::before {
+  content: '•';
+  color: #007bff;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Adjust spacing between columns */
+.row {
+  margin-bottom: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .row {
+    margin-bottom: 20px;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
