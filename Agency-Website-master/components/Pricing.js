@@ -101,48 +101,30 @@ function openModal(index) {
         "Create and deliver brochures",
         "Place shoe signs and boot covers"
       ],
-      description: ["Prepare and upload disclosures",
-        "Verify MLS listing accuracy",
-        "Prepare showing instructions",
-        "Create and deliver brochures",
-        "Place shoe signs and boot covers"]
+      description: ""
     },
     {
       title: "Standard",
-      features: ["Coordinate with title, lender, agent, client","Provide inspection recommendations to agents/clients", 
-  "Send inspection info to client", 
-  "Follow up post-inspection with client/agent", 
-  "Execute inspection addendum, send to title/lender", 
-  "Track loan progress with lender", 
-  "Send appraisal info to client", 
-   "Confirm document completion & submission", 
-  "Follow up on appraisal results", 
-  "Track loan progress - clear to close", 
-  "Schedule closing, send invites", 
-  "Send utility transfer info to client", 
-  "Schedule final water read (sellers)", 
-  "Review & email settlement statements", 
-  "Review & email settlement docs",  
-  "Coordinate key exchange (if occupancy)", 
-  "Submit final water bill & key exchange to title"
-],
-      description:["Coordinate with title, lender, agent, client","Provide inspection recommendations to agents/clients", 
-  "Send inspection info to client", 
-  "Follow up post-inspection with client/agent", 
-  "Execute inspection addendum, send to title/lender", 
-  "Track loan progress with lender", 
-  "Send appraisal info to client", 
-   "Confirm document completion & submission", 
-  "Follow up on appraisal results", 
-  "Track loan progress - clear to close", 
-  "Schedule closing, send invites", 
-  "Send utility transfer info to client", 
-  "Schedule final water read (sellers)", 
-  "Review & email settlement statements", 
-  "Review & email settlement docs",  
-  "Coordinate key exchange (if occupancy)", 
-  "Submit final water bill & key exchange to title"
-]
+      features: [
+        "Coordinate with title, lender, agent, client",
+        "Provide inspection recommendations to agents/clients",
+        "Send inspection info to client",
+        "Follow up post-inspection with client/agent",
+        "Execute inspection addendum, send to title/lender",
+        "Track loan progress with lender",
+        "Send appraisal info to client",
+        "Confirm document completion & submission",
+        "Follow up on appraisal results",
+        "Track loan progress - clear to close",
+        "Schedule closing, send invites",
+        "Send utility transfer info to client",
+        "Schedule final water read (sellers)",
+        "Review & email settlement statements",
+        "Review & email settlement docs",
+        "Coordinate key exchange (if occupancy)",
+        "Submit final water bill & key exchange to title"
+      ],
+      description: ""
     },
     {
       title: "Extended",
@@ -158,25 +140,26 @@ function openModal(index) {
   const data = pricingData[index];
   modalTitle.innerText = data.title;
 
-  // If the description is a string (like in Standard and Extended), just display it
-  if (typeof data.description === 'string') {
-    modalDescription.innerHTML = `<p>${data.description}</p>`;
-  } else {
-    // If there are features (like in Listing Coordinator), display them in a list format
-    modalDescription.innerHTML = `
-      <ul>
-        ${data.features.map(feature => `<li><span><i class="bi bi-check2"></i>${feature}</span></li>`).join('')}
-      </ul>
-    `;
-  }
+  // Set modal content similarly to the card, for consistent look
+  modalDescription.innerHTML = `
+    <div class="inner-box overflow-hidden position-relative">
+      <div class="table-content">
+        ${data.description ? `<p>${data.description}</p>` : `<ul>
+          ${data.features.map(feature => `<li><span><i class="bi bi-check2"></i>${feature}</span></li>`).join('')}
+        </ul>`}
+      </div>
+    </div>
+  `;
 
+  // Ensure modal has the same look as the pricing table cards
+  modal.classList.add("pricing-table", "position-relative", "col-lg-4", "col-md-6", "col-sm-12");
   modal.style.display = "block";
 }
-
 
 function closeModal() {
   const modal = document.getElementById("pricingModal");
   modal.style.display = "none";
 }
+
 
 Pricing();
