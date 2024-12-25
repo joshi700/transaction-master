@@ -10,7 +10,7 @@ function Metrics() {
       <div class="col-12 col-md-4 text-center">
         <div class="team-member">
           <img src="/Images/john-doe-circle.webp" alt="Member 1" class="team-image">
-          <h3>John Doe</h3>
+          <h3>Saylee Mokashi</h3>
           <p>CEO & Founder</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisi sit amet urna iaculis mollis.</p>
         </div>
@@ -20,7 +20,7 @@ function Metrics() {
       <div class="col-12 col-md-4 text-center">
         <div class="team-member">
           <img src="/Images/john-doe-circle.webp" alt="Member 2" class="team-image">
-          <h3>Jane Smith</h3>
+          <h3>Shraddha</h3>
           <p>Chief Marketing Officer</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisi sit amet urna iaculis mollis.</p>
         </div>
