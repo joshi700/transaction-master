@@ -14,7 +14,7 @@ function Footer() {
             </div>
           </div>
           <div class="col-12 col-md-2 badges">
-            
+            <p>Contact Details: Saylee Mokashi XXX-XXX-XXXX</p>
             <div class="badges-items me-3 d-block">
             </div>
           </div>
