@@ -3,7 +3,7 @@ function Metrics() {
   const Container = document.createElement("div");
   Container.classList.add("container", "mt-5");
 
-  container.innerHTML = `
+  Container.innerHTML = `
     <h2 class="text-center mb-5">Meet the Team</h2>
     <div class="row gx-5">
       <!-- Team Member 1 -->
