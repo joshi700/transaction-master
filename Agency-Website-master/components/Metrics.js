@@ -26,15 +26,7 @@ function Metrics() {
         </div>
       </div>
 
-      <!-- Team Member 3 -->
-      <div class="col-12 col-md-4 text-center">
-        <div class="team-member">
-          <img src="/Images/john-doe-circle.webp" alt="Member 3" class="team-image">
-          <h3>James Johnson</h3>
-          <p>Lead Developer</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisi sit amet urna iaculis mollis.</p>
-        </div>
-      </div>
+
     </div>
   `;
   Metrics.appendChild(Container);
