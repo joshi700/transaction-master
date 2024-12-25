@@ -101,13 +101,7 @@ function openModal(index) {
         "Create and deliver brochures",
         "Place shoe signs and boot covers"
       ],
-      description: [
-        "Prepare and upload disclosures",
-        "Verify MLS listing accuracy",
-        "Prepare showing instructions",
-        "Create and deliver brochures",
-        "Place shoe signs and boot covers"
-      ]
+      description: ""
     },
     {
       title: "Standard",
@@ -130,25 +124,7 @@ function openModal(index) {
         "Coordinate key exchange (if occupancy)",
         "Submit final water bill & key exchange to title"
       ],
-      description: [
-        "Coordinate with title, lender, agent, client",
-        "Provide inspection recommendations to agents/clients",
-        "Send inspection info to client",
-        "Follow up post-inspection with client/agent",
-        "Execute inspection addendum, send to title/lender",
-        "Track loan progress with lender",
-        "Send appraisal info to client",
-        "Confirm document completion & submission",
-        "Follow up on appraisal results",
-        "Track loan progress - clear to close",
-        "Schedule closing, send invites",
-        "Send utility transfer info to client",
-        "Schedule final water read (sellers)",
-        "Review & email settlement statements",
-        "Review & email settlement docs",
-        "Coordinate key exchange (if occupancy)",
-        "Submit final water bill & key exchange to title"
-      ],
+      description: ""
     },
     {
       title: "Extended",
