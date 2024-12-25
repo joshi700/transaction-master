@@ -562,6 +562,7 @@ Footer Section
 #Footer a {
   color: var(--white);
   padding-left: 0px;
+  font-size: 15px;
 }
 #Footer a:hover {
   color: var(--secondary-300);
