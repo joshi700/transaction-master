@@ -6,6 +6,15 @@ function LogoCloud() {
   Container1.classList.add("container", "border-top", "border-bottom", "py-4");
   Container2.classList.add("container");
   Container1.innerHTML = `
+  <div
+  class="text-body text-center d-flex flex-column align-items-center"
+>
+  <h2 class="title fw-bold">Tailor-made features</h2>
+  <p class="">
+    Lorem ipsum is common placeholder text used to demonstrate the
+    graphic elements of a document or visual presentation.
+  </p>
+</div>
   <div class="row row-cols-2 gx-5 gy-5">
           <div class="text-wrapper col-12 col-lg-7">
             <div class="text-body">
