@@ -9,34 +9,14 @@ function LogoCloud() {
   <div
   class="text-body text-center d-flex flex-column align-items-center"
 >
-  <h2 class="title fw-bold">Tailor-made features</h2>
+  <h1 class="title fw-bold">About Us</h2>
   <p class="">
-    Lorem ipsum is common placeholder text used to demonstrate the
-    graphic elements of a document or visual presentation.
+    We are a Southeast Michigan based women owned company specializing in real estate transaction management.
+    We have more than 8 years of collective industry experience in handling real estate transactions from contract to close.
+    We have successfully closed transactions worth more than $20.M
   </p>
 </div>
-  <div class="row row-cols-2 gx-5 gy-5">
-          <div class="text-wrapper col-12 col-lg-7">
-            <div class="text-body">
-              <h1 class=" fw-bold">
-               About Us
-              </h1>
-              <p class="mt-3">
-                We are a Southeast Michigan based women owned company specializing in real estate transaction management.
-
-​
-
-We have more than 8 years of collective industry experience in handling real estate transactions from contract to close.
-
-​
-
-We have successfully closed transactions worth more than $20.M
-              </p>
-            </div>
-            
-          </div>
-         
-        </div>
+ 
         
   `;
   Container2.innerHTML = `
