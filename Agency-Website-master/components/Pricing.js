@@ -35,7 +35,7 @@ function Pricing() {
         "Upload photos (agent's photographer)",
         "Order sign installation"
       ],
-      Description: [""]
+      description: ""
     },
     {
       title: "Standard",
@@ -81,6 +81,7 @@ function Pricing() {
   // Add the modal HTML structure to the page
   document.body.innerHTML += `
     <div id="pricingModal" class="pricing-modal">
+      <div class="modal-overlay" onclick="closeModal()"></div>
       <div class="modal-content">
         <span class="close-btn" onclick="closeModal()">&times;</span>
         <h2 id="modalTitle"></h2>
@@ -88,6 +89,48 @@ function Pricing() {
       </div>
     </div>
   `;
+
+  // Add the modal CSS for positioning
+  const style = document.createElement('style');
+  style.innerHTML = `
+    .pricing-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .modal-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .modal-content {
+      position: relative;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      z-index: 1001;
+      max-width: 500px;
+      width: 100%;
+    }
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  `;
+  document.head.appendChild(style);
 }
 
 function openModal(index) {
@@ -151,15 +194,13 @@ function openModal(index) {
     </div>
   `;
 
-  // Ensure modal has the same look as the pricing table cards
-  modal.classList.add("pricing-table", "position-relative", "col-lg-4", "col-md-6", "col-sm-12");
-  modal.style.display = "block";
+  // Show modal by displaying it
+  modal.style.display = "flex";
 }
 
 function closeModal() {
   const modal = document.getElementById("pricingModal");
   modal.style.display = "none";
 }
-
 
 Pricing();
