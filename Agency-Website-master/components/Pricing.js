@@ -30,12 +30,12 @@ function Pricing() {
       price: 200,
       duration: "",
       features: [
-        "Prepare property for listing in MLS using Transaction Master’s listing input sheet",
-        "Schedule photos - sorting and uploading (using Transaction Master’s preferred photographer)",
-        "Disclosure preparation & uploads, check compliance",
-        "Live listing to MLS - check accuracy of listing on third party websites"
+        "Prepare property for MLS listing",
+        "Schedule and upload photos",
+        "Upload photos (agent's photographer)",
+        "Order sign installation"
       ],
-      description: "This package is perfect for property listings and ensuring smooth processes through MLS.",
+      Description: ["Prepare and upload disclosures","Verify MLS listing accuracy","Prepare showing instructions","Create and deliver brochures","Place shoe signs and boot covers"]
     },
     {
       title: "Standard",
