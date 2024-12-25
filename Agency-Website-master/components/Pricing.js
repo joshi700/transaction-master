@@ -94,14 +94,23 @@ function openModal(index) {
   const pricingData = [
     {
       title: "Listing Coordinator",
-      description: ["Prepare and upload disclosures","Verify MLS listing accuracy","Prepare showing instructions","Create and deliver brochures","Place shoe signs and boot covers"]
+      features: [
+        "Prepare and upload disclosures",
+        "Verify MLS listing accuracy",
+        "Prepare showing instructions",
+        "Create and deliver brochures",
+        "Place shoe signs and boot covers"
+      ],
+      description: ""
     },
     {
       title: "Standard",
+      features: [],
       description: "A standard package for individuals who want to post a job with premium support and visibility."
     },
     {
       title: "Extended",
+      features: [],
       description: "Extended features and premium support for those who need long-term visibility and assistance."
     }
   ];
@@ -112,10 +121,22 @@ function openModal(index) {
 
   const data = pricingData[index];
   modalTitle.innerText = data.title;
-  modalDescription.innerText = data.description;
+
+  // If the description is a string (like in Standard and Extended), just display it
+  if (typeof data.description === 'string') {
+    modalDescription.innerHTML = `<p>${data.description}</p>`;
+  } else {
+    // If there are features (like in Listing Coordinator), display them in a list format
+    modalDescription.innerHTML = `
+      <ul>
+        ${data.features.map(feature => `<li><span><i class="bi bi-check2"></i>${feature}</span></li>`).join('')}
+      </ul>
+    `;
+  }
 
   modal.style.display = "block";
 }
+
 
 function closeModal() {
   const modal = document.getElementById("pricingModal");
