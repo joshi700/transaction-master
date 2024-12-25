@@ -35,19 +35,19 @@ function Pricing() {
         "Upload photos (agent's photographer)",
         "Order sign installation"
       ],
-      Description: ["Prepare and upload disclosures","Verify MLS listing accuracy","Prepare showing instructions","Create and deliver brochures","Place shoe signs and boot covers"]
+      Description: [""]
     },
     {
       title: "Standard",
-      price: 499,
-      duration: "/ monthly",
+      price: 300,
+      duration: "",
       features: [
-        "1 job posting",
-        "0 featured job",
-        "Job displayed for 20 days",
-        "Premium Support 24/7"
+        "Confirm document completion & submission", 
+        "Review agreement, send docs to title", 
+        "Track EMD & check overage", 
+        "Coordinate with title, lender, agent, client",
       ],
-      description: "A standard package for individuals who want to post a job with premium support and visibility.",
+      description: "",
     },
     {
       title: "Extended",
@@ -110,7 +110,24 @@ function openModal(index) {
     {
       title: "Standard",
       features: [],
-      description: "A standard package for individuals who want to post a job with premium support and visibility."
+      description:["Provide inspection recommendations to agents/clients", 
+  "Send inspection info to client", 
+  "Follow up post-inspection with client/agent", 
+  "Execute inspection addendum, send to title/lender", 
+  "Track loan progress with lender", 
+  "Send appraisal info to client", 
+  "Review title work", 
+  "Follow up on appraisal results", 
+  "Track loan progress - clear to close", 
+  "Schedule closing, send invites", 
+  "Send utility transfer info to client", 
+  "Schedule final water read (sellers)", 
+  "Review & email settlement statements", 
+  "Review & email settlement docs", 
+  "Follow up on escrow closings", 
+  "Coordinate key exchange (if occupancy)", 
+  "Submit final water bill & key exchange to title"
+]
     },
     {
       title: "Extended",
