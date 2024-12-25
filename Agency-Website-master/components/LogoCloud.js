@@ -10,24 +10,23 @@ function LogoCloud() {
           <div class="text-wrapper col-12 col-lg-7">
             <div class="text-body">
               <h1 class=" fw-bold">
-               Transaction Masters
+               About Us
               </h1>
               <p class="mt-3">
-                We manage all the paperwork and deadlines involved with selling/buying a home. We understand the flow of forms and time sensitive documents. We monitor the entire process and handle all conflict resolutions from the time the seller accepts the offer until both parties have signed the closing paperwork and the buyer walks away with the keys.
+                We are a Southeast Michigan based women owned company specializing in real estate transaction management.
+
+​
+
+We have more than 8 years of collective industry experience in handling real estate transactions from contract to close.
+
+​
+
+We have successfully closed transactions worth more than $20.M
               </p>
             </div>
-            <div class="btns-group mt-3">
-              
-              <a class="button btn-theme-2" href="#"
-                ><i class="bi bi-play-circle me-2"></i> Watch Video</a
-              >
-            </div>
+            
           </div>
-          <div
-            class="mockup-img col-12 col-lg-5 overflow-hidden d-flex justify-content-center"
-          >
-            <img class="" src="./Images/mockup-mobile1.png" alt="" id="" />
-          </div>
+         
         </div>
         
   `;
