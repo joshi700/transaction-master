@@ -101,7 +101,11 @@ function openModal(index) {
         "Create and deliver brochures",
         "Place shoe signs and boot covers"
       ],
-      description: ""
+      description: "Prepare and upload disclosures",
+        "Verify MLS listing accuracy",
+        "Prepare showing instructions",
+        "Create and deliver brochures",
+        "Place shoe signs and boot covers"
     },
     {
       title: "Standard",
