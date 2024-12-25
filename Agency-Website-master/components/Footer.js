@@ -5,19 +5,11 @@ function Footer() {
   Container.innerHTML = `
   <div class="row gx-4 gy-5">
           <div class="col-12 col-md-10 left-section ">
-            <div class="brand-logo">
-            </div>
-            <div class="nav-links d-flex flex-column mt-4">
-            </div>
             <div class="copyrights mt-4">
-              © 2025 <a class='text-decoration-underline' href="">Transaction Master</a> Theme. All rights reserved
-            </div>
-          </div>
-          <div class="col-12 col-md-2 badges">
-            <p>Contact Us:</p>
+              <p>Contact Us:</p>
             <div class="badges-items me-3 d-block">
-            <p>248-716-4247</p>
-            <p>transaction.management.one@gmail.com</p>
+              <p>248-716-4247</p>
+              <p>transaction.management.one@gmail.com</p>
             </div>
           </div>
         </div>
