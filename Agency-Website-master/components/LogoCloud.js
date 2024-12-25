@@ -9,7 +9,7 @@ function LogoCloud() {
   <div
   class="text-body text-center d-flex flex-column align-items-center"
 >
-  <h1 class="title fw-bold">About Us</h2>
+  <h2 class="title fw-bold">About Us</h2>
   <p class="">
     We are a Southeast Michigan based women owned company specializing in real estate transaction management.
     We have more than 8 years of collective industry experience in handling real estate transactions from contract to close.
