@@ -90,7 +90,7 @@ function Pricing() {
     </div>
   `;
 
-  // Add the modal CSS for positioning
+  // Add the modal CSS for positioning and styling
   const style = document.createElement('style');
   style.innerHTML = `
     .pricing-modal {
@@ -121,6 +121,25 @@ function Pricing() {
       z-index: 1001;
       max-width: 500px;
       width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .modal-content .title {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .modal-content .price {
+      font-size: 1.25rem;
+      color: #333;
+    }
+    .modal-content .table-content {
+      padding-top: 20px;
+    }
+    .modal-content ul {
+      padding-left: 20px;
+    }
+    .modal-content ul li {
+      font-size: 1rem;
+      line-height: 1.5;
     }
     .close-btn {
       position: absolute;
