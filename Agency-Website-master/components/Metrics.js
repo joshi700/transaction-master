@@ -21,7 +21,7 @@ After having lived in four countries over the past several years, Saylee and her
       <!-- Team Member 2 -->
       <div class="col-12 col-md-4 text-center">
         <div class="team-member">
-          <img src="/Images/Shraddha.jpeg" alt="Member 2" class="team-image">
+          <img src="/Images/Shraddha.jpg" alt="Member 2" class="team-image">
           <h3>Shraddha Kharsikar</h3>
           <p>Transaction Coordinator</p>
           <p>Coming from a Human Resources background, Shraddha brings in her experience of excellent organisation skills, time management and multitasking skills. She deeply understands that strong and incessant communication is the key to any successful relationship.Buying and Selling home is an extremely emotional experience for every person which needs to be handled with personal touch. Shraddha firmly believes in "what goes around, comes around" and hence she gives the best to our clients. 
