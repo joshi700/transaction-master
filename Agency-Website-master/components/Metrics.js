@@ -9,7 +9,7 @@ function Metrics() {
       <!-- Team Member 1 -->
       <div class="col-12 col-md-4 text-center">
         <div class="team-member">
-          <img src="https://via.placeholder.com/150" alt="Member 1" class="team-image">
+          <img src="/Images/john-doe-circle.webp" alt="Member 1" class="team-image">
           <h3>John Doe</h3>
           <p>CEO & Founder</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisi sit amet urna iaculis mollis.</p>
