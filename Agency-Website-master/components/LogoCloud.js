@@ -28,7 +28,7 @@ function LogoCloud() {
       <div
             class="mockup-img col-12 col-lg-5 overflow-hidden d-flex justify-content-center"
           >
-            <img class="" src="./Images/Real-Estate-iStock-edited.jpg" alt="" id="" />
+            <img class="" src="./Images/IMG_0225.jpeg" alt="" id="" />
           </div>
     </div>
 
