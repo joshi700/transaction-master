@@ -33,7 +33,7 @@ function LogoCloud() {
 
 <div class="row">
       <!-- About Us Section (Left Column) -->
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h2 class="title fw-bold mb-4">About Us</h2>
         <p class="lead mb-4">
           We are a Southeast Michigan-based women-owned company specializing in real estate transaction management.
