@@ -4,7 +4,7 @@ function createPricingTable(title, price, duration, features, description, index
       <div class="inner-box overflow-hidden position-relative">
         <div class="title">${title}</div>
         <div class="price">
-          $${price} <span class="duration">${duration}</span>
+          ${price} <span class="duration">${duration}</span>
         </div>
         <div class="table-content">
           <ul>
@@ -27,7 +27,7 @@ function Pricing() {
   const pricingData = [
     {
       title: "Listing Coordinator",
-      price: 200,
+      price: "$200",
       duration: "",
       features: [
         "Prepare property for MLS listing",
@@ -39,7 +39,7 @@ function Pricing() {
     },
     {
       title: "Standard",
-      price: 300,
+      price: "$300",
       duration: "",
       features: [
         "Review title work",
@@ -51,7 +51,7 @@ function Pricing() {
     },
     {
       title: "Premium",
-      price: 400,
+      price: "On Actuals",
       duration: "",
       features: [
       "Pre-Listing Document Coordination - $50",
