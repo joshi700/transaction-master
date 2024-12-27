@@ -26,7 +26,7 @@ function LogoCloud() {
         </ul>
       </div>
       <div
-            class="mockup-img col-12 col-lg-5 overflow-hidden d-flex justify-content-center"
+            class="mockup-img col-12 col-lg-4 d-flex justify-content-center"
           >
             <img class="" src="./Images/IMG_0225.jpeg" alt="" id="" />
           </div>
