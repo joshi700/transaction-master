@@ -337,10 +337,10 @@ Hero Section
 #Herosection .text-wrapper {
   padding-top: 40px;
 }
-<!--.mockup-img img {
-  max-height: 560px;
-}-->
 .mockup-img img {
+  max-height: 560px;
+}
+.mockup-imgh img {
   width: 100%;       /* Make the image responsive and fill the container */
   height: auto;      /* Maintain aspect ratio */
   object-fit: contain; /* Ensures the image fits within the container without cropping */
