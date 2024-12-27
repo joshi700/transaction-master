@@ -1,5 +1,5 @@
 function Referrals() {
-  const LogoCloud1 = document.getElementById("LogoCloud1");
+  const LogoCloud1 = document.getElementById("Referrals");
 
   const Container1 = document.createElement("div");
 
