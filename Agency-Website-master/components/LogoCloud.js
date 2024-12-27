@@ -25,11 +25,10 @@ function LogoCloud() {
           <li class="simple-list-item">Help you maintain your work-life balance while building your business.</li>
         </ul>
       </div>
-      <div
-            class="mockup-img col-12 col-lg-4 d-flex justify-content-center"
-          >
-            <img class="" src="./Images/IMG_0225.jpeg" alt="" id="" />
-          </div>
+        <div class="mockup-img col-12 col-lg-4 d-flex justify-content-center">
+          <img src="./Images/IMG_0225.jpeg" alt="" class="img-fluid" />
+        </div>
+
     </div>
 
 <div class="row">
