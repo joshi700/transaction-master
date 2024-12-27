@@ -8,15 +8,6 @@ function LogoCloud() {
 
   Container1.innerHTML = `
     <div class="row">
-      <!-- About Us Section (Left Column) -->
-      <div class="col-md-6">
-        <h2 class="title fw-bold mb-4">About Us</h2>
-        <p class="lead mb-4">
-          We are a Southeast Michigan-based women-owned company specializing in real estate transaction management.
-          With over 8 years of collective industry experience, we have handled real estate transactions from contract to close.
-          We have successfully closed transactions worth more than $20 million.
-        </p>
-      </div>
 
       <!-- Why Hire Transaction Masters Section (Right Column) -->
       <div class="col-md-6">
@@ -35,6 +26,20 @@ function LogoCloud() {
         </ul>
       </div>
     </div>
+
+<div class="row">
+      <!-- About Us Section (Left Column) -->
+      <div class="col-md-6">
+        <h2 class="title fw-bold mb-4">About Us</h2>
+        <p class="lead mb-4">
+          We are a Southeast Michigan-based women-owned company specializing in real estate transaction management.
+          With over 8 years of collective industry experience, we have handled real estate transactions from contract to close.
+          We have successfully closed transactions worth more than $20 million.
+        </p>
+      </div>
+
+</div>
+    
   `;
 
   LogoCloud1.appendChild(Container1);
