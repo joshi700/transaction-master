@@ -66,10 +66,10 @@ function Pricing() {
   container.innerHTML = `
     <div class="text-body d-flex flex-column align-items-center">
       <h2 class="text-center fw-bold">Pricing Packages</h2>
-      <p class="text-center">
+      <!--<p class="text-center">
         Connect Landify with your favourite tools that you use daily and
         keep things on track.
-      </p>
+      </p>-->
     </div>
     <div class="row mt-5">
       ${pricingData.map((data, index) => createPricingTable(data.title, data.price, data.duration, data.features, data.description, index)).join('')}
