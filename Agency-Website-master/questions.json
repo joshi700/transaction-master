@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "What is the main objective of the POSH Act?",
+      "options": [
+        "To promote gender equality in the workplace.",
+        "To ensure that all workers are provided with equal pay.",
+        "To prevent and address sexual harassment in the workplace.",
+        "To create awareness about sexual harassment."
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Under the POSH Act, sexual harassment includes:",
+      "options": [
+        "Physical contact and advances only.",
+        "Verbal or non-verbal conduct of a sexual nature.",
+        "Only incidents involving employees of the same gender.",
+        "Only incidents that occur during work hours."
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Who is responsible for preventing sexual harassment in the workplace?",
+      "options": [
+        "Only the HR department.",
+        "Only the victim of harassment.",
+        "Employers, employees, and other stakeholders.",
+        "Government agencies alone."
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "The POSH Act mandates the formation of which of the following?",
+      "options": [
+        "Gender-specific advisory committees.",
+        "Internal Complaints Committee (ICC).",
+        "Workplace wellness committees.",
+        "Employee unions."
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Who can file a complaint under the POSH Act?",
+      "options": [
+        "Only female employees.",
+        "Only employees above the age of 25.",
+        "Any employee who feels they have been sexually harassed.",
+        "Only senior employees."
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How long does an employee have to file a complaint after an incident of sexual harassment?",
+      "options": [
+        "6 months",
+        "3 months",
+        "1 year",
+        "1 month"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What should be done if an employee is found guilty of sexual harassment under the POSH Act?",
+      "options": [
+        "The employee may be terminated from employment.",
+        "The employee will face a monetary fine only.",
+        "The employee will be given a warning.",
+        "The case will be disregarded if there is no physical evidence."
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "The POSH Act applies to:",
+      "options": [
+        "Only formal offices in urban areas.",
+        "All workplaces, including non-organized sectors.",
+        "Only government institutions.",
+        "Only workplaces with more than 100 employees."
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the role of the Internal Complaints Committee (ICC)?",
+      "options": [
+        "To train employees on gender sensitivity.",
+        "To act as a mediator in all workplace conflicts.",
+        "To investigate complaints of sexual harassment and recommend actions.",
+        "To supervise employee salaries."
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is a measure to prevent sexual harassment in the workplace?",
+      "options": [
+        "Ignoring complaints from employees.",
+        "Ensuring that all employees undergo regular sexual harassment training.",
+        "Allowing inappropriate behavior to continue unchecked.",
+        "Avoiding discussions about the issue to prevent discomfort."
+      ],
+      "correctOption": 1,
+      "points": 10
+    }
+  ]
+}
